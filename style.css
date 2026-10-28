@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: "Dirty Ego";
+    src: url("fonts/DIRTYEGO.woff");
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "Dirty Ego";
+    color: white;
+    overflow: hidden;
+}
+
+.background_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#player_name {
+    position: absolute;
+    text-align: center;
+    top: 22%;
+    left: 38%;
+    font-size: 70px;
+}
+
+#message {
+    position: absolute;
+    bottom: 110px;
+    left: 50px;
+    font-size: 40px;
+}
+
+#message_secondary {
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+    font-size: 35px;
+}
+
+#progress {
+    position: absolute;
+    bottom: 15px;
+    left: 50px;
+    font-size: 50px;
+}
